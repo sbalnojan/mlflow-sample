@@ -1,3 +1,5 @@
 .idea
 .terraform
 *.tfstate*
+mlruns
+output.txt
