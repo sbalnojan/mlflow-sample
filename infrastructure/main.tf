@@ -18,7 +18,7 @@ resource "aws_autoscaling_group" "web-asg" {
   #vpc_zone_identifier = ["${split(",", var.availability_zones)}"]
   tag {
     key                 = "Name"
-    value               = "web-asg"
+    value               = "mlflow-server-test"
     propagate_at_launch = "true"
   }
 }
